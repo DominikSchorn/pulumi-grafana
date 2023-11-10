@@ -5,7 +5,7 @@
     "scripts": {
       "build": "tsc"
     },
-    "type": "module",
+    "type": "commonjs",
     "devDependencies": {
         "@types/node": "^16"
     },
