@@ -1,0 +1,13 @@
+{
+    "name": "dominike93-pulumi-grafana",
+    "main": "index.ts",
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^16"
+    },
+    "dependencies": {
+        "@lbrlabs/pulumi-grafana": "^0.2.0",
+        "@pulumi/pulumi": "^3.0.0"
+    },
+    "version": "0.0.1"
+}
