@@ -3,11 +3,14 @@
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "scripts": {
-      "build": "tsc"
+        "build": "tsc"
     },
     "type": "commonjs",
     "devDependencies": {
-        "@types/node": "^16"
+        "@types/mocha": "^10.0.4",
+        "@types/node": "^15.12.2",
+        "mocha": "^10.2.0",
+        "ts-node": "^10.9.1"
     },
     "dependencies": {
         "@lbrlabs/pulumi-grafana": "^0.2.0",
