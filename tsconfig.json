@@ -11,7 +11,7 @@
         "noFallthroughCasesInSwitch": true,
         "noImplicitReturns": true,
         "forceConsistentCasingInFileNames": true,
-        "type": "module"
+        "outDir": "lib"
     },
     "files": [
         "index.ts"

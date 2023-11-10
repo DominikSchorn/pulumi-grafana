@@ -1,6 +1,10 @@
 {
     "name": "dominike93-pulumi-grafana",
-    "main": "index.ts",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+      "build": "tsc"
+    },
     "type": "module",
     "devDependencies": {
         "@types/node": "^16"
