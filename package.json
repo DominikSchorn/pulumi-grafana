@@ -1,7 +1,7 @@
 {
     "name": "dominike93-pulumi-grafana",
-    "main": "lib/index.js",
-    "types": "lib/index.d.ts",
+    "main": "./bin/index.js",
+    "types": "./bin/index.d.ts",
     "scripts": {
       "build": "tsc"
     },
