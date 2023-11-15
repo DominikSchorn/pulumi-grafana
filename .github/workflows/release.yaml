@@ -31,6 +31,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          NPM_TOKEN: ${{ github.token }}
         run: npm run release
       # - uses: JS-DevTools/npm-publish@v3
       #   name: Release code
