@@ -3,15 +3,18 @@
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "scripts": {
-        "build": "tsc",
-        "lint": "eslint . --ext .ts",
-        "test": "mocha -r ts-node/register tests/tests.ts"
+        "build": "npx tsc",
+        "lint": "npx eslint . --ext .ts",
+        "format:check": "npx prettier --check *.ts",
+        "format:write": "npx prettier --write *.ts",
+        "test": "npx mocha -r ts-node/register tests/tests.ts"
     },
     "type": "commonjs",
     "devDependencies": {
         "@types/mocha": "^10.0.4",
         "@types/node": "^15.12.2",
         "@typescript-eslint/eslint-plugin": "^6.10.0",
+        "eslint": "^8.53.0",
         "eslint-config-prettier": "^9.0.0",
         "eslint-plugin-prettier": "^5.0.1",
         "mocha": "^10.2.0",
