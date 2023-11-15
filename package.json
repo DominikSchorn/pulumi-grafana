@@ -1,5 +1,5 @@
 {
-    "name": "dominike93-pulumi-grafana",
+    "name": "pulumi-grafana",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "files": [
