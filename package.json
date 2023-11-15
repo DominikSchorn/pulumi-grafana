@@ -4,7 +4,8 @@
     "types": "./lib/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "lint": "eslint . --ext .ts"
+        "lint": "eslint . --ext .ts",
+        "test": "mocha -r ts-node/register tests/tests.ts"
     },
     "type": "commonjs",
     "devDependencies": {
