@@ -2,6 +2,10 @@
     "name": "dominike93-pulumi-grafana",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
+    "files": [
+        "lib/",
+        "*.ts"
+    ],
     "scripts": {
         "build": "npx tsc",
         "lint": "npx eslint . --ext .ts",
