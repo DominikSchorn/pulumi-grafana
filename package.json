@@ -7,7 +7,8 @@
         "lint": "npx eslint . --ext .ts",
         "format:check": "npx prettier --check *.ts",
         "format:write": "npx prettier --write *.ts",
-        "test": "npx mocha -r ts-node/register tests/tests.ts"
+        "test": "npx mocha -r ts-node/register tests/tests.ts",
+        "release": "npm run build && npx semantic-release"
     },
     "type": "commonjs",
     "devDependencies": {
@@ -19,6 +20,7 @@
         "eslint-plugin-prettier": "^5.0.1",
         "mocha": "^10.2.0",
         "prettier": "3.0.3",
+        "semantic-release": "^22.0.7",
         "ts-node": "^10.9.1"
     },
     "dependencies": {
